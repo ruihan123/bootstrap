@@ -1,0 +1,204 @@
+body{
+	font-family: "微软雅黑";
+}
+/*导航*/
+.navbar-default{
+	background: #fff;
+    border: none;
+    border-color: #e7e7e7;
+    box-shadow: 0px 2px 8px 0px rgba(50,50,50,0.2);
+}
+.navbar-default .navbar-brand{
+	font-size: 26px;
+	font-weight: bold;
+	color: #40D2B1;
+	line-height: 25px;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #000;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: bold;
+}
+
+/*home*/
+#home{
+	margin-top: 55px;
+	background: url(../img/home-bg.jpg);
+	color: #fff;
+	background-size: cover;
+	text-align: center;
+	font-weight: bold;
+	/*height: 500px;*/
+}
+
+.lvjing{
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.6);
+	padding: 90px 0px;
+}
+#home hl{
+	margin-top: 0;
+	font-weight: bold;
+}
+#home p{
+	line-height: 30px;
+}
+#home img{
+	margin-top: 30px;
+	display: inline-block;
+}
+/*bbs*/
+#bbs{
+	padding: 80px 0px;
+	text-align: center;
+}
+#bbs .col-md-4:hover{
+	background-color: lightgrey;
+}
+#bbs a{
+	color: black;
+	text-decoration: none;
+}
+#bbs a:hover{
+	text-decoration: none;
+}
+#bbs img{
+	margin: 0 auto;
+}
+#bbs h3{
+	font-weight: bold;
+}
+/*html5*/
+#html5{
+	background: #f8f8f8;
+	padding: 80px 0px;
+}
+#html5 h2{
+    font-weight: bold;
+}
+#html5 p{
+	line-height: 30px;
+}
+#html5 span{
+    display: inline-block;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background: green;
+    margin-bottom: -10px;
+    margin-right: 20px;
+}
+/*bootstrap*/
+#bootstrap{
+	background: #f8f8f8;
+	padding: 80px 0px;
+}
+#bootstrap h2{
+    font-weight: bold;
+}
+#bootstrap p{
+	line-height: 30px;
+}
+#bootstrap span{
+    display: inline-block;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background: green;
+    margin-bottom: -10px;
+    margin-right: 20px;
+}
+/*course*/
+#course{
+	text-align: center;
+}
+#course h2{
+	font-weight: bold;
+	padding: 80px 0;
+}
+/*#course .col-md-4{
+	margin-left: 20px;
+}*/
+#course img{
+	margin: 0 auto;
+}
+#course .btn{
+	background: transparent;
+    border: 1px solid #40D2B1;
+    border-radius: 0px;
+    color: #40D2B1;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 8px 40px;
+    transition: all 0.3s;
+}
+#course .btn:hover{
+	color: white;
+	background: #40D2B1;
+}
+/*app*/
+#app{
+	padding: 80px 0;
+}
+#app h2{
+	font-weight: bold;
+}
+#app p{
+	padding: 20px 0;
+	line-height: 25px;
+}
+#app .btn{
+	margin: 10px 0;
+    background: rgb(64, 210, 177);
+    border-color: rgb(64, 210, 177);
+    border-radius: 0;
+    padding: 6px 30px;
+    transition: all 0.3s;
+}
+#app .btn:hover{
+	background: rgb(44,142,120);
+}
+/*contant*/
+#contanct{
+	/*padding: 80px 0;*/
+	background: url(../img/contact-bg.png) no-repeat;
+	background-size: cover;
+	color: #fff;
+	/*height: 500px;*/
+}
+#contanct h2{
+	font-weight: bold;
+	margin-bottom: 5px;
+	margin-top: 0;
+}
+#contanct p{
+	line-height: 25px;
+	margin: 20px;
+}
+#contanct .form-control{
+	border: none;
+	border-radius: 0;
+	height: 50px;
+	margin-bottom: 20px;
+}
+#contanct .textarea{
+	height: 80px;
+}
+#contanct input[type='submit']{
+	background: #40D2B1;
+	color: #fff;
+	font-weight: bold;
+	font-size: 20px;
+}
+#contanct input[type='submit']:hover{
+	background: rgb(44,142,120);
+}
+/*footer*/
+#footer{
+	font-weight: 400;
+	text-align: center;
+	padding: 10px 0;
+	color: lightgray;
+}
